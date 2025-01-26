@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  remember-this-job:
+    runs-on: ubuntu-latest
+    name: A job to remember this
+    steps:
+      - name: remember this action step
+        id: remember
+        uses: actions/remember-this-docker-action@v1
+        with:
+          what-to-remember: 'Mona the Octocat'
+      - name: Get the output time
+        run: echo "The time was ${{ steps.remember.outputs.time }}"
