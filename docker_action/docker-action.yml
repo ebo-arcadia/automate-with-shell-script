@@ -1,0 +1,15 @@
+name: 'Remember this'
+description: 'Remember this and record the time'
+inputs:
+  what-to-remember:
+    description: 'What to remember'
+    required: true
+    default: 'Truth'
+outputs:
+  time:
+    description: 'The time this is remembered'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.what-to-remember }}
