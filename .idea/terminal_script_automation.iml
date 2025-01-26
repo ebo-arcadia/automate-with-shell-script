@@ -5,4 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at ~/Downloads/swe_projects/vector_db/VirEnv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="modifyBaseFiles" value="true" />
+  </component>
 </module>
