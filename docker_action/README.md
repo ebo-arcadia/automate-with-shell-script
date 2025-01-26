@@ -6,13 +6,13 @@ This action prints "Remember Truth" or "Remember this: " + the input of an user 
 
 ## `what-to-remember`
 
-**Required** The word to remember. Default `"Truth"`.
+**Required** The word to remember. Default `"Truth"`
 
 ## Outputs
 
 ## `time`
 
-The time this is remembered.
+The time the input is remembered
 
 ## Example usage
 
