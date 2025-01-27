@@ -16,6 +16,6 @@ The time the input is remembered
 
 ## Example usage
 
-uses: actions/remember-this-docker-action@v1
+uses: ebo-arcadia/remember-this-docker-action@v1
 with:
   what-to-remember: 'the ultimate truth'
