@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: remember this action step
         id: remember
-        uses: actions/automate-with-shell-script
+        uses: ebo-arcadia/automate-with-shell-script
         with:
           what-to-remember: 'Truth'
       - name: Get the output time
